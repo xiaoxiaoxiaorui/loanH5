@@ -19,13 +19,14 @@ input::-moz-placeholder, textarea::-moz-placeholder { line-height: normal; color
 input:-ms-input-placeholder, textarea:-ms-input-placeholder { line-height: normal; color:#999;}
 .Send{ float: right;}
 .Get{ width: 100%}
-footer{ position: absolute; bottom: 1.25rem; width: 100%;}
+footer{ position: absolute; bottom: 3.25rem; width: 100%;}
 footer p{ text-align: center; margin: 0.56rem 0 0 0;}
 @media (max-width: 374px){
     form{ padding: 35% 3.125rem 0 3.125rem;}
     form span input{ width: 60%; background: #fff;}
     form input, form button{ height: 2rem;}
 }
+/*
 @media only screen and (min-width: 376px) and (max-width: 450px) {
-    form{ padding: /*12.125rem*/47% 3.125rem 0 3.125rem;}
-}
+    form{ padding: !*12.125rem*!40% 3.125rem 0 3.125rem;}
+}*/
