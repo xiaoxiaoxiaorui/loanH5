@@ -1,0 +1,31 @@
+*{ list-style: none;}
+html{ font-size: 100%;}
+body{ height: 100vh; position: relative; box-sizing: border-box; border: none; margin: 0; padding: 0; font-size: 0.75rem; font-family: '微软雅黑'; color: #fff; background: #f6f1dc url("../images/bodybg.png") no-repeat; background-size: cover;}
+.wrap{ width: 100%;}
+header{ padding: 3.875rem 0 0.8125rem 0;}
+header span{ display: block; text-align: center; margin: 0.56rem 0 0 0;}
+.loanMinute{ width: 13.1rem; height: 2.22rem;}
+.loanTitle{ width: 8.28rem; height: 2.25rem;}
+.content{}
+form{ padding: /*12.125rem*/40% 3.125rem 0 3.125rem;}
+form input,form button{ height: 2.5rem; line-height: normal; border: none; border-radius: 0.1rem; margin-bottom: 0.9rem;}
+form input{ box-sizing: border-box; padding-left: 0.9rem; background: #fff;}
+form span input{ width: 66%;}
+form button{ background: #f4d525; color: #fff;}
+form>input{ width: 100%;}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { line-height: normal; color: #999;}
+input:-moz-placeholder, textarea:-moz-placeholder { line-height: normal; color:#999;}
+input::-moz-placeholder, textarea::-moz-placeholder { line-height: normal; color:#999;}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { line-height: normal; color:#999;}
+.Send{ float: right;}
+.Get{ width: 100%}
+footer{ position: absolute; bottom: 1.25rem; width: 100%;}
+footer p{ text-align: center; margin: 0.56rem 0 0 0;}
+@media (max-width: 374px){
+    form{ padding: 35% 3.125rem 0 3.125rem;}
+    form span input{ width: 60%; background: #fff;}
+    form input, form button{ height: 2rem;}
+}
+@media only screen and (min-width: 376px) and (max-width: 450px) {
+    form{ padding: /*12.125rem*/47% 3.125rem 0 3.125rem;}
+}
